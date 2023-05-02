@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-// import css from './FriendListItem.module.css';
+import css from './FriendListItem.module.css';
 
 export function FriendListItem({ avatar, name, isOnline }) {
   return (
-    <li className="item">
-      <span className="status">{isOnline}</span>
+    <li className={css.item}>
+      <span className={`${css.status} ${css[isOnline]}`}>{isOnline}</span>
       <img className="avatar" src={avatar} alt={name} width="48" />
-      <p className="name">{name}</p>
+      <p className={css.name}>{name}</p>
     </li>
   );
 }
