@@ -1,7 +1,6 @@
 .item {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   gap: 10px;
 
   margin: 10px auto;
@@ -12,9 +11,6 @@
   border: 1px solid rgb(213, 213, 213);
   background-color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  /* outline: 1px solid gray; */
-  /* background-color: aquamarine; */
 }
 
 .name {
